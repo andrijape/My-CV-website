@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Andrijaaape</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9d3aaadef8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <aside id='aside'>
+        <!-- Profile -->
+        <div id="profile">
+            <img src="img/profile.jpg" title="Profile picture">
+            <div id="name">
+                <h3>Andrija Petrovic</h3>
+                <p>Front-end Developer</p>
+            </div>
+        </div>
+
+        <!-- Residence -->
+        <div id="residence">
+            <span>
+                <h4 class="residence-info">Country:</h4>
+                <h4 class="residence-data">Serbia</h4>
+            </span>
+            <span>
+                <h4 class="residence-info">City:</h4>
+                <h4 class="residence-data">Belgrade</h4>
+            </span>
+            <span>
+                <h4 class="residence-info">Address:</h4>
+                <h4 class="residence-data">Ustanicka 85</h4>
+            </span>
+        </div>
+
+        <!-- Skills -->
+        <div id="skills">
+            <div class="html">
+                <span class="skills__span">
+                    <img src="img/icon/html.png" alt="HTML" title="HTML">
+                    <h3>HTML</h3>
+                </span>
+            </div>
+
+            <div class="css">
+                <span class="skills__span">
+                    <img src="img/icon/css.png" alt="CSS" title="CSS">
+                    <h3>CSS</h3>
+                </span>
+            </div>
+
+            <div class="js">
+                <span class="skills__span">
+                    <img src="img/icon/js.png" alt="JavaScript" title="JS">
+                    <h3>JS</h3>
+                </span>
+            </div>
+
+            <div class="node">
+                <span class="skills__span">
+                    <img src="img/icon/node.png" alt="Node.js" title="Node.js">
+                    <h3>Node.js</h3>
+                </span>
+            </div>
+        </div>
+
+        <!-- Libraries and technologies -->
+        <div id="libraries-technologies">
+            <div class="css-lib">
+                <span><i class="fas fa-check"></i> Sass, Bootstrap, Materialize</span>
+            </div>
+            <div class="js-lib">
+                <span><i class="fas fa-check"></i> jQuery, AJAX, API</span>
+            </div>
+            <div class="node-lib">
+                <span><i class="fas fa-check"></i> npm, Express.js</span>
+            </div>
+            <div class="tech">
+                <span><i class="fas fa-check"></i> GitHub, Postman</span>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="contact__info email">
+                <span><i class="fas fa-envelope"></i> andrijaaape@gmail.com</span>
+            </div>
+            <div class="contact__info phone">
+                <span><i class="fas fa-phone"></i> +381 64 256 84 63</span>
+            </div>
+            <div class="contact__info linkedin">
+                <span><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/andrijaaape"
+                        target="_blank">Linkedin</a></span>
+            </div>
+            <div class="contact__info git">
+                <span><i class="fab fa-github"></i></i> <a href="https://github.com/andrijape"
+                        target="_blank">GitHub</a></span>
+            </div>
+        </div>
+    </aside>
+
+    <button id="burgerBtn"><i class="fas fa-ellipsis-v"></i></button>
+
+    <main>
+        <!-- Header -->
+        <header>
+            <div class="overlay"></div>
+            <p>Hello! My name is Andrija Petrovic, <br> and I am a Front-end Developer</p>
+        </header>
+
+        <!-- Navigation bar -->
+        <nav class="btn">
+            <button><i class="fas fa-graduation-cap"></i>Education</button>
+            <button><i class="fas fa-briefcase"></i>Experience</button>
+            <button><i class="fas fa-comments"></i>Skills and languages</button>
+            <button><i class="fas fa-user"></i>About me</button>
+        </nav>
+
+        <!-- Details div controlled by JS -->
+        <div id="details"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
